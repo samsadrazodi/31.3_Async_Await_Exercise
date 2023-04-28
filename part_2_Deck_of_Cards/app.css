@@ -1,0 +1,15 @@
+#displayArea > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+#displayArea {
+    margin-top: 80px;
+  }
+
+body {
+    text-align: center;
+    background-color: green;
+  }

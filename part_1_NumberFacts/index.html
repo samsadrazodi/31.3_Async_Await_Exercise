@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+    <title>Part 1 Number Facts</title>
+</head>
+<body>
+    <h1>Number Facts</h1>
+
+    
+    <div class="container mt-4">
+        <h2>Part 1</h2>
+        <div class="form-group">
+          <label for="favnum">Enter your favorite number:</label>
+          <input type="number" id="favnum" name="favnum" class="form-control">
+        </div>
+        <button id="btn" class="btn btn-primary">Get Number Fact</button>
+        <div id="fact" class="form-control mt-3" rows="3" readonly></div>
+      </div>
+
+      <div class="container mt-4">
+        <h2>Part 2</h2>
+        <div class="form-group">
+          <label for="favnum2">Enter your favorite numbers separated by comma:</label>
+          <input type="text" id="favnum2" name="favnum2" class="form-control">
+        </div>
+        <button id="btn2" class="btn btn-primary">Get Numbers Fact</button>
+        <div id="fact2" ></div>
+      </div>
+
+
+      <div class="container mt-4">
+        <h2>Part 3</h2>
+        <div class="form-group">
+          <label for="favnum3">Enter your favorite number:</label>
+          <input type="text" id="favnum3" name="favnum3" class="form-control">
+        </div>
+        <button id="btn3" class="btn btn-primary">Get Numbers Fact</button>
+        <div id="fact3" ></div>
+      </div>
+
+      
+      
+      
+      
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
